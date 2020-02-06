@@ -1,0 +1,166 @@
+h1 {
+    text-align: center;
+    font-size:3rem;
+    font-family: 'Georgia';
+}
+
+.input {
+    text-align:center;
+
+}
+
+input[type="text"] {
+    height:30px;
+    width: 600px;
+    background:#e7e7e7;
+    font-weight:bold;
+    font-size:20px;
+    border:none;
+    border-radius:2px;
+    padding:10px 10px;
+
+}
+
+input[type="submit"] {
+    height:50px;
+    width: 100px;
+    background:#e7e7e7;
+    font-weight:bold;
+    font-size:20px;
+    border:none;
+    border-radius:2px;
+
+}
+
+
+.all {
+    display: none;
+}
+
+
+h4 {
+    text-align: center;
+    font-size:1rem;
+    font-family: 'Georgia';
+    color: #777;
+}
+
+.container {
+    width:75%;
+    margin: 50px auto 0 auto;
+}
+
+
+.container-2{
+    width:75%;
+    margin: 50px auto 0 auto;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+.boxi-1{
+    width:30%;
+    text-align: center;
+    font-family: 'Georgia';
+    background-color:#FED797 ;
+    color: #777;
+}
+
+.boxi-2{
+    width:30%;
+    text-align: center;
+    font-family: 'Georgia';
+    background-color:#C5D7C0 ;
+    color: #777;
+}
+
+
+.boxi-3{
+    width:30%;
+    text-align: center;
+    font-family: 'Georgia';
+    background-color:#8AC0DE ;
+    color: #777;
+}
+
+
+
+.legend {
+    width:20%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.box-1 {
+    flex:1;
+    display:flex;
+}
+
+.box-2 {
+    flex:1;
+    display:flex;
+    
+
+}
+
+.box-3 {
+    flex:1;
+    display:flex;
+
+}
+
+.text-yellow {
+    flex:1;
+}
+
+.text-blue {
+    margin-left: 5px;
+    flex:1;
+}
+
+.text-grey {
+    flex:1;
+}
+
+.yellow {
+    background-color: #FED797;
+    width:20px;
+    height:20px;
+    flex:1;
+    margin: 20px 40px 0 5px;
+}
+
+.blue {
+    background-color: #8AC0DE;
+    width:20px;
+    height:20px;
+    flex:1;
+    margin: 20px 30px 0 5px;
+}
+
+.grey {
+    background-color: #C5D7C0;
+    width:20px;
+    height:20px;
+    flex:1;
+    margin: 20px 10px 0 5px;
+}
+
+h5 {
+    text-align: center;
+    font-family: Georgia;
+    margin: 100px auto 0 auto;
+}
+
+.credit img {
+    height: 41px;
+    width: 100px;
+    overflow: hidden;
+    align-content: center;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:0;
+}
