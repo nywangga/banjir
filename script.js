@@ -9,7 +9,7 @@ Chart.defaults.global.defaultFontFamily= 'Georgia';
 Chart.defaults.global.defaultFontColor= '#777';
 
 button.addEventListener('click', function() {
-    fetch('https://api.openweathermap.org/data/2.5/forecast?q='+inputValue.value+',id&appid=f3f066bdab383470df914acc5b9aee5d')
+    fetch('https://api.openweathermap.org/data/2.5/forecast?q='+inputValue.value+',id&appid=')
     .then(response => response.json())
     .then(data => {
         let day1 = [];
