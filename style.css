@@ -48,8 +48,72 @@ h4 {
 .container {
     width:75%;
     margin: 50px auto 0 auto;
+
 }
 
+@media only screen and (max-width: 768px) {
+    .container {
+        width:75%;
+        margin: 50px auto 0 auto;
+        position:relative;
+        height:40vh;
+        width: 80vw;
+    }
+    input[type="text"] {
+        height:10px;
+        width: 40vw;
+        background:#e7e7e7;
+        font-weight:bold;
+        font-size:10px;
+        border:none;
+        border-radius:2px;
+        padding:10px 10px;
+    
+    }
+    
+    input[type="submit"] {
+        height:30px;
+        width: 20vw;
+        background:#e7e7e7;
+        font-weight:bold;
+        font-size:10px;
+        border:none;
+        border-radius:2px;
+    
+    }
+    
+    h1 {
+        font-size:2rem;
+
+    }
+    .legend {
+        display:inline;
+    }
+
+    .box-1 {
+        display:inline-flex;
+
+    }
+    
+    .box-2 {
+        display:inline;
+        
+    
+    }
+    
+    .box-3 {
+        display:inline;
+    
+    }
+    h3 {
+        font-size: 0.9rem;
+    }
+    p {
+        font-size: 0.7rem;
+    }
+
+    
+  }
 
 .container-2{
     width:75%;
@@ -87,26 +151,22 @@ h4 {
 
 
 .legend {
-    width:20%;
     margin: 0 auto;
     display:flex;
     justify-content: space-between;
 }
 
 .box-1 {
-    flex:1;
     display:flex;
 }
 
 .box-2 {
-    flex:1;
     display:flex;
     
 
 }
 
 .box-3 {
-    flex:1;
     display:flex;
 
 }
